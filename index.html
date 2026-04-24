@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Grito Mexicano</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff3c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>El Grito Mexicano</h1>
+        <p>Authentic Mexican Flavors. Bold. Fresh. Unforgettable.</p>
+        <button class="btn">View Menu</button>
+    </div>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        Experience the true taste of Mexico with handcrafted dishes made from traditional recipes.
+        From sizzling fajitas to rich birria tacos, every bite is packed with flavor.
+    </p>
+</section>
+
+<section>
+    <h2>Popular Dishes</h2>
+    <div class="menu-grid">
+        <div class="card">
+            <h3>Birria Tacos</h3>
+            <p>Slow-cooked beef with rich chili sauce.</p>
+        </div>
+        <div class="card">
+            <h3>Nachos</h3>
+            <p>Loaded with cheese, guacamole & salsa.</p>
+        </div>
+        <div class="card">
+            <h3>Fajitas</h3>
+            <p>Sizzling grilled meat & veggies.</p>
+        </div>
+        <div class="card">
+            <h3>Enchiladas</h3>
+            <p>Classic Mexican comfort dish.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b">
+        <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e">
+        <img src="https://images.unsplash.com/photo-1613514785940-daed07799d9b">
+        <img src="https://images.unsplash.com/photo-1625943555419-56a2cb596640">
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>📍 236 James St N, Hamilton</p>
+    <p>📞 (905) 524-2224</p>
+    <p>📧 contact@restaurant.com</p>
+</section>
+
+<footer>
+    <p>© 2026 El Grito Mexicano</p>
+</footer>
+
+</body>
+</html>
